@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MODN - Moda Nanismo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="mainHeader">
+    <div class="container">
+      <div class="logo">MODN</div>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container hero-content">
+      <h2>Moda inclusiva para pessoas com nanismo</h2>
+      <p>Estilo, conforto e representatividade em cada peça.</p>
+      <button onclick="scrollToSection('produtos')">Conheça nossos produtos</button>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre a MODN</h2>
+      <p>A MODN nasceu com a missão de oferecer roupas pensadas exclusivamente para pessoas com nanismo. Nosso compromisso é com a inclusão, o respeito e o estilo.</p>
+    </div>
+  </section>
+
+  <section id="produtos">
+    <div class="container">
+      <h2>Nossos Produtos</h2>
+      <div class="produtos-grid">
+        <div class="produto">
+          <img src="fotos/vestido.png" alt="Vestido MODN" />
+          <h3>Vestido Sob-Medida</h3>
+          <p>Feita sob medida com tecidos macios e cortes adaptados.</p>
+        </div>
+        <div class="produto">
+          <img src="fotos/jeans.png" alt="Jeans MODN" />
+          <h3>Calça Jeans Fit</h3>
+          <p>Modelagem exclusiva para caimento ideal.</p>
+        </div>
+        <div class="produto">
+          <img src="fotos/jaquets.png" alt="Jaqueta MODN" />
+          <h3>Jaqueta</h3>
+          <p>Design moderno e confortável para todas as ocasiões.</p>
+        </div>
+        <div class="produto">
+          <img src="fotos/camiseta.png" alt="Camisa MODN" />
+          <h3>Camisa Casual MODN</h3>
+          <p>Estilo e conforto em tamanho ideal.</p>
+        </div>
+        <div class="produto">
+          <img src="fotos/moletom.png" alt="Moletom MODN" />
+          <h3>Moletom Casual MODN</h3>
+          <p>Para não passar frio. Perfeito para o inverno.</p>
+        </div>
+        <div class="produto">
+          <img src="fotos/short.png" alt="Shorts MODN" />
+          <h3>Shorts Casual MODN</h3>
+          <p>Leveza e liberdade para o dia a dia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <form id="formContato">
+        <input type="text" name="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu email" required />
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 MODN - Moda para todos os tamanhos</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/j.tana1" target="_blank" aria-label="Instagram">Instagram</a>
+        <a href="https://wa.me/5512997640816" target="_blank" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
